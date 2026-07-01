@@ -24,5 +24,17 @@ int main()
 
     // else cout << "Shrimali";
 
+    // int a = 4 , b = 6;
+
+    // if(a++ || b++) cout << a << endl << b; // if(4 --> true) a = 5 , b = 6
+    
+    // else cout << "Hello";
+
+    int a = 0; // Variable a Declaration and Initialization the value 0 to a variable...
+
+    if(a++) cout << "Hello"; // if(0) false --> statements so if not executed...
+
+    else cout << "World"; // Thus , World prints...
+
     return 0;
 }
